@@ -58,3 +58,9 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
+.salon{
+    width: 100%;
+    max-width: 800px;
+    border-radius: 20px;
+    object-fit: cover;
+}
