@@ -1,15 +1,16 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #FFE4E1;
-    color: #333;
+    color: #4e4242;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 header {
-    background: linear-gradient(to right, #FF69B4, #FFB6C1);
-    padding: 20px;
+    background: linear-gradient(to right, #ff6973, #e3a9b2);
+    padding: 10px;
+    font-size: larger;
 }
 
 header h1 {
@@ -17,7 +18,7 @@ header h1 {
 }
 
 nav ul {
-    list-style: none;
+    list-style:inside;
     padding: 0;
 }
 
@@ -33,9 +34,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #500d52;
+    color: #360722;
     background-color: #fbfaf87a;
-    padding: 10px;
+    border-radius: 20px;
+    padding: 20px;
 }
 .home-content {
     display: flex;
@@ -65,8 +67,11 @@ nav ul li a:hover {
     object-fit: cover;
 }
 button {
-    background-color: #FF69B4;
+    background-color: #ff6973;
     color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -75,7 +80,7 @@ button {
 }
 
 button:hover {
-    background-color: #FF1493;
+    background-color: #ff1472;
 }
 footer {
     background-color: #FFB6C1;
