@@ -37,4 +37,24 @@ nav ul li a:hover {
     background-color: #fbfaf87a;
     padding: 10px;
 }
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+.image {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 20px;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
 
